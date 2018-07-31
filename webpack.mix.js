@@ -9,12 +9,12 @@ mix.webpackConfig({
     plugins: [
         build.jigsaw,
         build.browserSync(),
-        build.watch(['source/**/*.md', 'source/**/*.php', 'source/**/*.less', '!source/**/_tmp/*']),
+        build.watch(['source/**/*.md', 'source/**/*.php', 'source/**/*.scss', '!source/**/_tmp/*']),
     ]
 });
 
 mix.js('source/_assets/js/main.js', 'js')
-    .less('source/_assets/less/main.less', 'css')
+    .sass('source/_assets/sass/main.scss', 'css')
     .options({
         processCssUrls: false,
         postCss: [

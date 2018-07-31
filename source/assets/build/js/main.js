@@ -72,7 +72,7 @@
 
 /***/ }),
 
-/***/ "./source/_assets/less/main.less":
+/***/ "./source/_assets/sass/main.scss":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -83,7 +83,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__("./source/_assets/js/main.js");
-module.exports = __webpack_require__("./source/_assets/less/main.less");
+module.exports = __webpack_require__("./source/_assets/sass/main.scss");
 
 
 /***/ })
